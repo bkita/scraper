@@ -1,0 +1,27 @@
+.row
+  .col-md-12
+    h2.section-heading Scraper
+    .panel
+      .panel-body
+        .col-md-2
+        = form_for :el_scraper, id: 'el_scraper', url: 'scrape', html: {class: 'form form-horizontal col-md-8', 'data-parsley-validate' => ''} do |f|
+          .form-group
+            .col-sm-12
+              = f.text_area :urls, class: 'form-control', :rows => 15, 'required' => ''
+          .form-group
+            .col-sm-5.control-label
+            .col-sm-7
+              = f.submit type: 'submit', class: 'btn btn-primary btn-lg', value: 'Scrape!'
+
+- if @urls
+  .container
+    table.table.table-striped
+      thead
+        tr
+          th Plik
+          th Download
+      tbody
+      - @urls.each do |file|
+        tr
+          td #{file}
+          td = link_to 'download', "files/#{file}.txt", download: "#{file}", class: "btn btn-sm btn-default"
