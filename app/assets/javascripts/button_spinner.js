@@ -2,7 +2,9 @@ $('.btn').button();
 
 $(document).ready(function () {
     $('.btn').click(function () {
-        $(this).button('loading');
-        //$(this).button('reset');
+        if ($('#el_scraper_urls').val().length == 0) {
+        } else {
+            $(this).button('loading');
+        }
     });
 });
