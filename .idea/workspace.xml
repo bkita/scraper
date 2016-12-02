@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4150aeeb-c82a-48e2-8984-ec669507629a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/button_spinner.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/files/polki_pl_po_godzinach_filmy_zwiastun_piekna_i_bestia_oficjalny_trailer_filmu_z_emma_watson_1552_wideo.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/files/polki_pl_zdrowie_choroby_stwardnienie_rozsiane_film_edukacyjny_dla_pacjentow_z_sm_10420274_artykul.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/files/portal_abczdrowie_pl_kofeina_nie_jest_dobra_na_regeneracje_sluchu.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/files/portal_abczdrowie_pl_ograniczona_swiadomosc_osob_doroslych_na_temat_zatrucia_tlenkiem_wegla.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/files/www_bankier_pl_wiadomosc_KRD_hurtownie_spozywcze_bardziej_zadluzone_3580481.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/files/www_poradnikzdrowie_pl_diety_odchudzajace_dieta_zupowa_czyli_jedz_zupy_i_chudnij_43984.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/files/www_poradnikzdrowie_pl_uroda_cialo_higiena_higiena_intymna_mezczyzn_jak_dbac_o_wlasciwa_higiene_miejsc_intymnych_44137.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/files/www_poradnikzdrowie_pl_uroda_twarz_tradzik_neuropatyczny_ma_podloze_psychiczne_do_czego_prowadzi_nadmiern_44183.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/files/www_poradnikzdrowie_pl_zdrowie_skora_leczenie_zajadow_sposoby_na_zajady_w_kacikach_ust_41797.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/files/www_poradnikzdrowie_pl_zywienie_zasady_zywienia_jaki_tluszcz_wybrac_do_smazenia_i_pieczenia_44064.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/files/www_poradnikzdrowie_pl_zywienie_zasady_zywienia_potas_objawy_niedoboru_najlepsze_zrodla_w_zywnosci_35476.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scraper.iml" afterPath="$PROJECT_DIR$/.idea/scraper.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/el_scrapers/index.html.slim" afterPath="$PROJECT_DIR$/app/views/el_scrapers/index.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/assets.rb" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/el_scraper.rb" afterPath="$PROJECT_DIR$/app/models/el_scraper.rb" />
     </list>
     <ignored path="scraper.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.slim" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.slim" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/el_scrapers/index.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3962264">
-              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            <state vertical-scroll-proportion="-8.0">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -80,8 +66,18 @@
       <file leaf-file-name="el_scrapers_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/el_scrapers_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.310345">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.827586">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="el_scraper.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/el_scraper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.7553719">
+              <caret line="92" column="60" selection-start-line="92" selection-start-column="60" selection-end-line="92" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -138,7 +134,6 @@
         <option value="$PROJECT_DIR$/app/views/scrapes/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/el_scrapers/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/el_scraper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/el_scrapers_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/scrape_btn.js" />
@@ -146,6 +141,7 @@
         <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
         <option value="$PROJECT_DIR$/app/views/el_scrapers/index.html.slim" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/button_spinner.js" />
+        <option value="$PROJECT_DIR$/app/models/el_scraper.rb" />
       </list>
     </option>
   </component>
@@ -570,7 +566,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="24" width="1573" height="1056" extended-state="4" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21152587" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -580,7 +576,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4264232" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2867884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -791,13 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/el_scraper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16094421">
-          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="126" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -828,14 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/el_scrapers_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.310345">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/button_spinner.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -854,8 +835,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/el_scrapers/index.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3962264">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state vertical-scroll-proportion="-8.0">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/el_scrapers_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.827586">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/el_scraper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7553719">
+          <caret line="92" column="60" selection-start-line="92" selection-start-column="60" selection-end-line="92" selection-end-column="60" />
           <folding />
         </state>
       </provider>

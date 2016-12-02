@@ -87,6 +87,10 @@ class ElScraper < ActiveRecord::Base
 
         file_name = file_name_from_url url
         save_to_file(file_name, title(title_arr), article(article_arr))
+
+      else
+        file_name = file_name_from_url url
+        save_to_file(file_name, 'Scraper nie zna tej strony!', 'Zaproponuj właścicielowi dodanie tej strony do skryptu.')
       end
     end
   end
