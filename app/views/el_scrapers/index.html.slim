@@ -11,7 +11,7 @@
           .form-group
             .col-sm-5.control-label
             .col-sm-7
-              = f.submit type: 'submit', class: 'btn btn-primary btn-lg', value: 'Scrape!'
+              = f.submit type: 'submit', class: 'btn btn-primary btn-lg', value: 'Scrape!', data: { "loading-text" => "Scraping ..." }, autocomplete: 'off'
 
 - if @urls
   .container
@@ -25,3 +25,6 @@
         tr
           td #{file}
           td = link_to 'download', "files/#{file}.txt", download: "#{file}", class: "btn btn-sm btn-default"
+
+
+= javascript_include_tag 'button_spinner.js'
